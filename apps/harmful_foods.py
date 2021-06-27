@@ -56,7 +56,7 @@ def app():
     st.subheader('Researchers have linked simple carbohydrates, like those found in white bread and pasta, with a higher chance of age-related macular degeneration (AMD), a leading cause of vision loss for older adults. The reason: Your body digests this type of carb quickly. This causes a spike in blood sugar. To prevent this, health experts suggest that you swap white bread and pasta for whole-grain versions')
 
     st.header('2 Processed Meats')
-    st.image('food_images\Bad foods\Processed meats.png')
+    st.image('food_images/Bad foods/Processed meats.png')
     st.subheader('Hot dogs, bacon, and deli meats are loaded with sodium. This salt spike can eventually lead to high blood pressure (hypertension). In your eyes, this may cause Hypertensive retinopathy, blood vessel damage that causes blurred vision or vision loss , a buildup of fluid beneath the retina Neuropathy, a blockage of blood flow that kills nerves and causes vision loss Try to limit your sodium to 2,300 milligrams or less a day.')
 
     st.header('3 Fried Foods')
