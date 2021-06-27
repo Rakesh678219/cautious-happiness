@@ -4,7 +4,7 @@ import streamlit as st
 def app():
 
     st.header('Minor Project Credits ')
-    video_file = open('videos\project_Credits.mp4', 'rb')
+    video_file = open('project_Credits.mp4', 'rb')
     video_bytes = video_file.read()
     st.video(video_bytes, start_time=1)
 
