@@ -70,7 +70,7 @@ def app():
                 2: 'Crossed',
                 3: 'Glaucoma ',
                 4: 'Normal eye',
-                4: 'Uveitis'
+                5: 'Uveitis'
                 }
 
     if uploaded_file is not None:
