@@ -63,7 +63,7 @@ def app():
 
     # load file
     uploaded_file = st.file_uploader(
-        "Upload Your Eye Image Here ", type="jpg","png","jpeg")
+        "Upload Your Eye Image Here ", type=["jpg","png","jpeg"])
 
     map_dict = {0: 'Bulging',
                 1: 'Cataract',
