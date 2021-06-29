@@ -67,8 +67,4 @@ def app():
     st.video(video_bytes, start_time=1)
     st.write('** This video describes what the doctor sees when examining the retina (the light-sensitive tissue at the back of the eye), macula (the part of the retina needed for sharp, central vision) and optic nerve (which connects the retina to the brain).**')
 
-    st.header('How Your Eyes Make Sense of the World ?')
-    video_file = open('eye_decoder.mp4', 'rb')
-    video_bytes = video_file.read()
-    st.video(video_bytes, start_time=1)
-    st.write('** How does the eye work exactly?  learn some of the extraordinary science behind how your eyes and brain work together to perceive the world around you **')
+    
