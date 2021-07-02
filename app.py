@@ -8,14 +8,15 @@ import time
 # import os
 # os.environ['CUDA_VISIBLE_DEVICES'] = "0"
 from multiapp import MultiApp
-from apps import home, test, foods, harmful_foods, project_credits
+from apps import home, test, foods, harmful_foods
+# , project_credits
 
 app = MultiApp()
 app.add_app("Home", home.app)
 app.add_app("Eye Checkup", test.app)
 app.add_app("Healthy foods for eyes", foods.app)
 app.add_app("Foods that are bad for eyes", harmful_foods.app)
-app.add_app("Contact Page and Project Credits", project_credits.app)
+# app.add_app("Contact Page and Project Credits", project_credits.app)
 app.run()
 
 st.markdown(
