@@ -25,18 +25,13 @@ def app():
         with col3:
             st.write("")
 
-        st.write(
-            """
-            # Minor Project On ML
-            
-            """
-        )
+       
         st.write("#")
        
         st.write(
             """
             
-            **Rakesh Reddy P -  1RV18EC109**\n
+            ** Rakesh Reddy P **\n
            
             
             """
