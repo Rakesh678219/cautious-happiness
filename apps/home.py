@@ -27,31 +27,20 @@ def app():
             # RV COLLEGE OF ENGINEERING
             """
         )
-        st.write(
-            """
-            # Minor Project On ML
-            
-            """
-        )
+      
 
         st.write("#")
-        st.header("Contributed by")
+        
         st.write(
             """
-            **Pavankalyan D S  - 1RV18EC108**\n
+            
             **Rakesh Reddy P -  1RV18EC109**\n
-            **Prajwal  B  Raj -  1RV18EC111** \n
-            **Pratheek J Bhat -  1RV18EC105**\n
+            
             
             """
         )
         st.write("#")
-        st.header("Guided by")
-        st.write(
-            """
-            **Rajani Katiyar, Assistant Professor, Electronics and Communication Engineering.** 
-            """
-        )
+      
 
     with st.sidebar:
         draw_all("sidebar")
