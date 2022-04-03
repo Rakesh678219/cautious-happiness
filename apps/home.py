@@ -28,7 +28,12 @@ def app():
             """
         )
       
-
+        st.write(
+            """
+            # Minor Project On ML
+            
+            """
+        )
         st.write("#")
         
         st.write(
