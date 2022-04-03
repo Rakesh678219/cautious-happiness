@@ -21,6 +21,7 @@ app.run()
 
 st.markdown(
     """
+    <meta name="image" property="og:image" content="https://share.streamlit.io/rakesh678219/cautious-happiness/main/app.py">
     <style>
         .stProgress > div > div > div > div {
             background-color: #A9ADB0
