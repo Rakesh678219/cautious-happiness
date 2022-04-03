@@ -25,7 +25,12 @@ def app():
         with col3:
             st.write("")
 
-       
+        st.write(
+            """
+            # Minor Project On ML
+            
+            """
+        )
         st.write("#")
        
         st.write(
