@@ -24,7 +24,7 @@ def app():
             st.write("")
         st.write(
             """
-            # RV COLLEGE OF ENGINEERING
+            # RVCE
             """
         )
       
@@ -34,7 +34,7 @@ def app():
         st.write(
             """
             
-            **Rakesh Reddy P -  1RV18EC109**\n
+            **Rakesh Reddy P **\n
             
             
             """
