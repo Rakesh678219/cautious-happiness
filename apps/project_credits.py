@@ -46,14 +46,12 @@ def app():
                         """
         )
         st.write("#")
-        st.header("Contributed by")
+        
         st.write(
             """
-                        **Pavankalyan D S  - 1RV18EC108**\n
-                        **Rakesh Reddy P -  1RV18EC109**\n
-                        **Prajwal  B  Raj -  1RV18EC111** \n
-                        **Pratheek J Bhat -  1RV18EC105**\n
                         
+                        **Rakesh Reddy P -  1RV18EC109**\n
+                       
                         """
         )
         st.write("#")
