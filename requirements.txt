@@ -1,4 +1,4 @@
-streamlit
+streamlit==0.83
 tensorflow
 opencv-python-headless
 pandas
