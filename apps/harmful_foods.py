@@ -8,7 +8,7 @@ def app():
         key,
         plot=False,
     ):
-        col1, col2, col3 = st.beta_columns([1, 4.5, 1])
+        col1, col2, col3 = st.columns([1, 4.5, 1])
 
         with col1:
             st.write("")
