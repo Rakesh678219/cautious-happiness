@@ -77,7 +77,7 @@ def app():
 
         # Now do something with the image! For example, let's display it:
 
-        col1, col2 = st.beta_columns(2)
+        col1, col2 = st.columns(2)
         col1.subheader("Original Image ")
         col1.image(resized, use_column_width=True)
 
