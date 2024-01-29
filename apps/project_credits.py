@@ -9,7 +9,7 @@ def app():
     st.video(video_bytes, start_time=1)
 
     st.header('Contact Details')
-    col1, col2, col3, col4 = st.beta_columns([1, 1, 1, 1])
+    col1, col2, col3, col4 = st.columns([1, 1, 1, 1])
 
     with col1:
         st.write('Pratheek J Bhat')
@@ -28,7 +28,7 @@ def app():
         key,
         plot=False,
     ):
-        col1, col2, col3 = st.beta_columns([1, 4.5, 1])
+        col1, col2, col3 = st.columns([1, 4.5, 1])
 
         with col1:
             st.write("")
